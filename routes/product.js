@@ -49,6 +49,8 @@ router.post("/", (req, res) => {
 
 });
 
+//Search API By features fields present in database
+
 router.get("/search/:features", (req, res) => {
 
     const body = req.params.features;
